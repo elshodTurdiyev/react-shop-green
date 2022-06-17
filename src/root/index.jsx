@@ -1,17 +1,17 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Body from "../components/Body/Index";
-import Home from "../components/Home/Index";
-import { Wrap } from "../components/Home/style";
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar/Index";
-import Plant from "../components/Plant";
-import Shop from "../components/Shop";
-import Blogs from "../components/Blogs";
-import Products from "../components/Products";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Body from '../components/Body/Index';
+import Home from '../components/Home/Index';
+import { Wrap } from '../components/Home/style';
+import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar/Index';
+import Plant from '../components/Plant';
+import Shop from '../components/Shop';
+import Blogs from '../components/Blogs';
+import Products from '../components/Products';
 
-import { Categories } from "../mockDatas/mockCateg";
-import { Container } from "./style";
+import { Categories } from '../mockDatas/mockCateg';
+import { Container } from './style';
 
 export const Root = () => {
   return (
